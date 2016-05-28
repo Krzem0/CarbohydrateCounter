@@ -1,0 +1,130 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="CarbohydrateCounter.ProductPanorama"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="TitleTemplate">
+            <TextBlock Text="{Binding}" FontSize="100" Margin="5,60,5,0"></TextBlock>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Wymienniki węglowodanowe" TitleTemplate="{StaticResource TitleTemplate}">
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem>
+                <StackPanel x:Name="Products1" Margin="0,-25,0,0">
+                    <Button x:Name="Bakery" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Bakery_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/bakery.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Pieczywo" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Pasta" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Pasta_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/pasta.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Makarony, płatki" Foreground="Black" 
+                           TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Vegetables" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Vegetables_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/vegetables.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Warzywa" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>                        
+                    </Button>
+                </StackPanel>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem>
+                <StackPanel x:Name="Products2" Margin="0,-25,0,0">
+                    <Button x:Name="Flower" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Flower_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/flower.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Mąka, kasze" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>                        
+                    </Button>
+                    <Button x:Name="Milk" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Milk_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/milk.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Napoje mleczne" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Fruits" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Fruits_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/fruits.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Owoce" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </controls:PanoramaItem>
+
+            <!--Panorama item three-->
+            <controls:PanoramaItem>
+                <StackPanel x:Name="Products3" Margin="0,-25,0,0">
+                    <Button x:Name="Juices" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Juices_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/juices.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Soki" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Cakes" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Cakes_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/cakes.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Ciasta, ciastka" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                    <Button x:Name="Confectionery" Background="White" BorderBrush="Gray"
+                            Height="220" Width="275" Click="Confectionery_Click">
+                        <StackPanel>
+                            <Image Source="/CarbohydrateCounter;component/Images/confectionery.jpg"
+                                   Height="125" Width="200"/>
+                            <TextBlock Text="Słodycze" Foreground="Black" 
+                           TextWrapping="Wrap" TextAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

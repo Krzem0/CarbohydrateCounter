@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SokiOwocoweNapoje>
+  <Produkt>
+    <ID>
+      1
+    </ID>
+    <Nazwa>
+      Sok z czarnej porzeczki (sacharoza 3,8g/100g)
+    </Nazwa>
+    <Wymiennik>
+      80
+    </Wymiennik>
+    <Kalorie>
+      42
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      2
+    </ID>
+    <Nazwa>
+      Sok grejpfrutowy (sacharoza 2,5g/100g)
+    </Nazwa>
+    <Wymiennik>
+      110
+    </Wymiennik>
+    <Kalorie>
+      44
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      3
+    </ID>
+    <Nazwa>
+      Sok jabłkowy (sacharoza 1,9g/100g)
+    </Nazwa>
+    <Wymiennik>
+      100
+    </Wymiennik>
+    <Kalorie>
+      42
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      4
+    </ID>
+    <Nazwa>
+      Sok marchwiowy (sacharoza 9g/100g)
+    </Nazwa>
+    <Wymiennik>
+      100
+    </Wymiennik>
+    <Kalorie>
+      43
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      5
+    </ID>
+    <Nazwa>
+      Sok pomarańczowy (sacharoza 2,2g/100g)
+    </Nazwa>
+    <Wymiennik>
+      100
+    </Wymiennik>
+    <Kalorie>
+      43
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      6
+    </ID>
+    <Nazwa>
+      Sok wielowarzywny (sacharoza 2,3g/100g)
+    </Nazwa>
+    <Wymiennik>
+      200
+    </Wymiennik>
+    <Kalorie>
+      50
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      7
+    </ID>
+    <Nazwa>
+      Sok pomidorowy (sacharoza 0,2g/100g)
+    </Nazwa>
+    <Wymiennik>
+      425
+    </Wymiennik>
+    <Kalorie>
+      58
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      8
+    </ID>
+    <Nazwa>
+      Coca-cola, Pepsi (sacharoza 10g/100g)
+    </Nazwa>
+    <Wymiennik>
+      100
+    </Wymiennik>
+    <Kalorie>
+      42
+    </Kalorie>
+  </Produkt>
+</SokiOwocoweNapoje>

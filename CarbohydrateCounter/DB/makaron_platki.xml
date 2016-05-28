@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MakaronPlatki>
+  <Produkt>
+    <ID>
+      1
+    </ID>
+    <Nazwa>
+      Makaron dwujajeczny
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      56
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      2
+    </ID>
+    <Nazwa>
+      Makaron po ugotowaniu
+    </Nazwa>
+    <Wymiennik>
+       45
+    </Wymiennik>
+    <Kalorie>
+      56
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      3
+    </ID>
+    <Nazwa>
+      Płatki owsiane
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      55
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      4
+    </ID>
+    <Nazwa>
+      Płatki jęczmienne
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      53
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      5
+    </ID>
+    <Nazwa>
+      Płatki pszanne
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      53
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      6
+    </ID>
+    <Nazwa>
+      Płatki kukurydziane
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      54
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      7
+    </ID>
+    <Nazwa>
+      Chrupki kukurydziane bez cukru
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      53
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      8
+    </ID>
+    <Nazwa>
+      Musli z suszonymi owocami
+    </Nazwa>
+    <Wymiennik>
+      15
+    </Wymiennik>
+    <Kalorie>
+      49
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      9
+    </ID>
+    <Nazwa>
+      Musli z rodzynkami i orzechami
+    </Nazwa>
+    <Wymiennik>
+      20
+    </Wymiennik>
+    <Kalorie>
+      75
+    </Kalorie>
+  </Produkt>
+</MakaronPlatki>

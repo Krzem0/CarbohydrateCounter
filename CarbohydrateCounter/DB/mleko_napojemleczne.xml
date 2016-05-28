@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MlekoNapojeMleczne>
+  <Produkt>
+    <ID>
+      1
+    </ID>
+    <Nazwa>
+      Mleko 2% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      200
+    </Wymiennik>
+    <Kalorie>
+      102
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      2
+    </ID>
+    <Nazwa>
+      Mleko 1,5% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      200
+    </Wymiennik>
+    <Kalorie>
+      94
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      3
+    </ID>
+    <Nazwa>
+      Mleko 0,5% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      200
+    </Wymiennik>
+    <Kalorie>
+      78
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      4
+    </ID>
+    <Nazwa>
+      Jogurt naturalny 2% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      170
+    </Wymiennik>
+    <Kalorie>
+      102
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      5
+    </ID>
+    <Nazwa>
+      Jogurt naturalny 0,1% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      150
+    </Wymiennik>
+    <Kalorie>
+      72
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      6
+    </ID>
+    <Nazwa>
+      Jogurt truskawkowy 1,5% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      130
+    </Wymiennik>
+    <Kalorie>
+      78
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      7
+    </ID>
+    <Nazwa>
+      Kefir 2% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      200
+    </Wymiennik>
+    <Kalorie>
+      102
+    </Kalorie>
+  </Produkt>
+  <Produkt>
+    <ID>
+      8
+    </ID>
+    <Nazwa>
+      Maślanka o,5% tłuszczu
+    </Nazwa>
+    <Wymiennik>
+      200
+    </Wymiennik>
+    <Kalorie>
+      74
+    </Kalorie>
+  </Produkt>
+</MlekoNapojeMleczne>
